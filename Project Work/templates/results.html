@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Plant is Crucial</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="static\assets\img\hero-bg.webp" rel="icon">
+    <link href="static\assets\img\hero-bg.webp" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="static/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrap">
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="d-flex align-items-center">
+            <div class="container d-flex align-items-center justify-content-between">
+
+                <div class="logo">
+                    <h1 class="text-light"><a href="/"><span>Tomato Plant Disease Detection</span></a></h1>
+                    <!-- Uncomment below if you prefer to use an image logo 
+                    <a href="/"><img src="static\assets\img\abcd.jpg" alt="" class="img-fluid"></a>-->
+                </div>
+                
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto " href="/predict">Predict</a></li>
+            <li><a class="nav-link scrollto " href="/">Home</a></li>
+                        <!--<form method="post" action="/result" enctype="multipart/form-data">
+                            <input type="file" name="file" accept="image/*" required onchange="loadFile(event)">
+                            <button type="submit">Predict</button>
+                        </form>
+                        <img id="out" width="50" style="display:none;">
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+                <script>
+                    var loadFile = function (event) {
+                        var image = document.getElementById('out');
+                        image.src = URL.createObjectURL(event.target.files[0]);
+                        image.style.display = 'block';  // Show the uploaded image
+                    };
+                </script>--></ul></nav>
+                
+            </div>
+        </header><!-- End Header -->
+
+        <main id="main">
+            <section class="inner-page">
+                <div class="container">
+                    <h2>Model Result is</h2>
+                    <center>
+                        <h3 style="color:rgb(3, 104, 151);">Detection of Disease in Tomato-Plant</h3>
+                        <p class="fst-italic">{{ prediction_text }}</p>
+                    </center>
+                </div>
+            </section>
+        </main><!-- End #main -->
+    </div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="static/assets/vendor/aos/aos.js"></script>
+    <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="static/assets/js/main.js"></script>
+
+</body>
